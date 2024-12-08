@@ -1,0 +1,48 @@
+/* About Section Styling */
+.about-section {
+    background-color: #e2e8f0;
+    padding: 6rem 1.25rem; 
+  }
+  
+  .about-content {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .about-text {
+    max-width: 50%;
+    text-align: center;
+  }
+  
+  .about-title {
+    font-size: 2rem; 
+    font-weight: 500; 
+    color: #111827; 
+    margin-bottom: 1rem;
+  }
+  
+  .about-description {
+    font-size: 1rem;
+    color: #4b5563; 
+    line-height: 1.75; 
+    margin-bottom: 1.25rem; 
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-text {
+      max-width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
